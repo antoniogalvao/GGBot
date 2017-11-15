@@ -14,7 +14,6 @@ bot.registry.registerCommandsIn(__dirname + "/commands");
 
 //connecting the database
 db.open("./repository/score.sqlite");
-//let db = new sqlite3.Database('./db/chinook.db');
 
 const prefix = "+";
 bot.on('message', (message) => {

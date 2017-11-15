@@ -1,5 +1,5 @@
 #ignore repository files
-/src/repository/
+/src/repository/*.sqlite
 
 
 # Created by https://www.gitignore.io/api/node
