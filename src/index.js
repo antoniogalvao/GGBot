@@ -13,7 +13,7 @@ bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
 //connecting the database
-db.open("./score.sqlite");
+db.open("./repository/score.sqlite");
 //let db = new sqlite3.Database('./db/chinook.db');
 
 const prefix = "+";
